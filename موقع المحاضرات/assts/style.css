@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Tajawal", Arial, sans-serif;
+    background: #000;
+    color: white;
+}
+
+/* الرأس */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #111, #222);
+    box-shadow: 0 4px 15px #333;
+}
+
+h1 {
+    font-family: 'my';
+    font-weight: 100;
+    font-size: 40px;
+    margin: 0;
+    color: #00bfff;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* الخط */
+.header {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background: #00bfff;
+    box-shadow: 0 0 10px #00bfff;
+}
+
+/* محتوى المواد */
+.container {
+
+    width: 70%;
+    margin: 40px auto;
+    background: #111;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #222;
+    text-align: center;
+}
+
+.h_1 {
+    color: #ffb000;
+    font-size: 30px;
+    box-shadow: 0 0 5px #ffb000;
+}
+
+a {
+    display: block;
+    background: #222;
+    color: white;
+    margin: 15px auto;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.a1:hover {
+    background: #ffb000;
+    color: black;
+    transform: scale(1.05);
+    
+}
+
+.hr1{
+    width: 75%;
+    border: none;
+    height: 2px;
+    margin-top: -17px;
+    margin-bottom: 32px;
+    background: #ffb000;
+    box-shadow: 0 0 10px #ffb000
+}
+
+.h_2 {
+    color: #0f0;
+    font-size: 30px;
+    box-shadow: 0 0 5px #0f0;
+}
+
+.a2:hover {
+    background: #0f0;
+    color: black;
+    transform: scale(1.05);
+    
+}
+
+.hr2{
+    width: 75%;
+    border: none;
+    height: 2px;
+    margin-top: -17px;
+    margin-bottom: 32px;
+    background: #0f0;
+    box-shadow: 0 0 10px #0f0;
+}
+
+.h_3 {
+    color: #f00;
+    font-size: 30px;
+    box-shadow: 0 0 5px #f00;
+}
+
+.a3:hover {
+    background: #f00;
+    color: black;
+    transform: scale(1.05);
+    
+}
+
+.hr3{
+    width: 75%;
+    border: none;
+    height: 2px;
+    margin-top: -17px;
+    margin-bottom: 32px;
+    background: #f00;
+    box-shadow: 0 0 10px #f00;
+}
+
+.h_4 {
+    color:#DA70D6;
+    font-size: 30px;
+    box-shadow: 0 0 5px #DA70D6;
+}
+
+.a4:hover {
+    background: #DA70D6;
+    color: black;
+    transform: scale(1.05);
+    
+}
+
+.hr4{
+    width: 75%;
+    border: none;
+    height: 2px;
+    margin-top: -17px;
+    margin-bottom: 32px;
+    background: #DA70D6;
+    box-shadow: 0 0 10px #DA70D6;
+}
+
+.h_5 {
+    color: #FFFF00;
+    font-size: 30px;
+    box-shadow: 0 0 5px  #FFFF00;
+}
+
+.a5:hover {
+    background:  #FFFF00;
+    color: black;
+    transform: scale(1.05);
+    
+}
+
+.hr5{
+    width: 75%;
+    border: none;
+    height: 2px;
+    margin-top: -17px;
+    margin-bottom: 32px;
+    background:  #FFFF00;
+    box-shadow: 0 0 10px  #FFFF00;
+}
+
+.h_6 {
+    color: #08c4ba;
+    font-size: 30px;
+    box-shadow: 0 0 5px  #08c4ba;
+}
+
+.a6:hover {
+    background:  #08c4ba;
+    color: black;
+    transform: scale(1.05);
+    
+}
+
+.hr6{
+    width: 75%;
+    border: none;
+    height: 2px;
+    margin-top: -17px;
+    margin-bottom: 32px;
+    background:  #08c4ba;
+    box-shadow: 0 0 10px  #08c4ba;
+}
+
+/* تذييل */
+footer {
+    text-align: center;
+    color: #999;
+    margin: 50px;
+}
