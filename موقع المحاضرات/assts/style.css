@@ -16,6 +16,9 @@ header {
     background: linear-gradient(135deg, #111, #222);
     box-shadow: 0 4px 15px #333;
 }
+.container > div{
+    display: none;
+}
 
 h1 {
     font-family: 'my';
@@ -50,6 +53,9 @@ h1 {
     border-radius: 20px;
     box-shadow: 0 0 20px #222;
     text-align: center;
+}
+h2:hover{
+    cursor: pointer;
 }
 
 .h_1 {
