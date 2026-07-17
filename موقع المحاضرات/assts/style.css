@@ -21,7 +21,6 @@ header {
 }
 
 h1 {
-    font-family: 'my';
     font-weight: 100;
     font-size: 40px;
     margin: 0;
@@ -75,20 +74,20 @@ a {
     text-decoration: none;
     transition: 0.3s;
 }
-
-.a1:hover {
-    background: #ffb000;
-    color: black;
-    transform: scale(1.05);
-    
-}
-
-.hr1{
+a > hr{
     width: 75%;
     border: none;
     height: 2px;
     margin-top: -17px;
     margin-bottom: 32px;
+}
+.a1:hover {
+    background: #ffb000;
+    color: black;
+    transform: scale(1.05);
+}
+
+.hr1{
     background: #ffb000;
     box-shadow: 0 0 10px #ffb000
 }
@@ -107,11 +106,6 @@ a {
 }
 
 .hr2{
-    width: 75%;
-    border: none;
-    height: 2px;
-    margin-top: -17px;
-    margin-bottom: 32px;
     background: #0f0;
     box-shadow: 0 0 10px #0f0;
 }
@@ -130,11 +124,6 @@ a {
 }
 
 .hr3{
-    width: 75%;
-    border: none;
-    height: 2px;
-    margin-top: -17px;
-    margin-bottom: 32px;
     background: #f00;
     box-shadow: 0 0 10px #f00;
 }
@@ -153,11 +142,6 @@ a {
 }
 
 .hr4{
-    width: 75%;
-    border: none;
-    height: 2px;
-    margin-top: -17px;
-    margin-bottom: 32px;
     background: #DA70D6;
     box-shadow: 0 0 10px #DA70D6;
 }
@@ -176,11 +160,6 @@ a {
 }
 
 .hr5{
-    width: 75%;
-    border: none;
-    height: 2px;
-    margin-top: -17px;
-    margin-bottom: 32px;
     background:  #FFFF00;
     box-shadow: 0 0 10px  #FFFF00;
 }
@@ -199,11 +178,6 @@ a {
 }
 
 .hr6{
-    width: 75%;
-    border: none;
-    height: 2px;
-    margin-top: -17px;
-    margin-bottom: 32px;
     background:  #08c4ba;
     box-shadow: 0 0 10px  #08c4ba;
 }
