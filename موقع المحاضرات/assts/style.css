@@ -81,6 +81,11 @@ a > hr{
     margin-top: -17px;
     margin-bottom: 32px;
 }
+.container hr{
+    width: 76%;
+    margin-top: -17px;
+    margin-bottom: 37px;
+}
 .a1:hover {
     background: #ffb000;
     color: black;
@@ -88,8 +93,8 @@ a > hr{
 }
 
 .hr1{
-    background: #ffb000;
-    box-shadow: 0 0 10px #ffb000
+    border: 1px solid #ffb000;
+    box-shadow: 0 0 10px #ffb000;
 }
 
 .h_2 {
@@ -106,7 +111,7 @@ a > hr{
 }
 
 .hr2{
-    background: #0f0;
+    border: 1px solid #0f0;
     box-shadow: 0 0 10px #0f0;
 }
 
@@ -124,7 +129,7 @@ a > hr{
 }
 
 .hr3{
-    background: #f00;
+    border: 1px solid #f00;
     box-shadow: 0 0 10px #f00;
 }
 
@@ -142,7 +147,7 @@ a > hr{
 }
 
 .hr4{
-    background: #DA70D6;
+    border: 1px solid #DA70D6;
     box-shadow: 0 0 10px #DA70D6;
 }
 
@@ -160,7 +165,7 @@ a > hr{
 }
 
 .hr5{
-    background:  #FFFF00;
+    border: 1px solid  #FFFF00;
     box-shadow: 0 0 10px  #FFFF00;
 }
 
@@ -178,7 +183,7 @@ a > hr{
 }
 
 .hr6{
-    background:  #08c4ba;
+    border: 1px solid  #08c4ba;
     box-shadow: 0 0 10px  #08c4ba;
 }
 
