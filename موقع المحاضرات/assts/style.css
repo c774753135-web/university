@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "my";
+    src: url(AraHalaBoShe\'sha-Regular.otf);
+}
 * {
     box-sizing: border-box;
 }
@@ -16,11 +20,13 @@ header {
     background: linear-gradient(135deg, #111, #222);
     box-shadow: 0 4px 15px #333;
 }
+
 .container > div{
     display: none;
 }
 
 h1 {
+    font-family: "my";
     font-weight: 100;
     font-size: 40px;
     margin: 0;
@@ -28,6 +34,7 @@ h1 {
 }
 
 .subtitle {
+    font-family: "my";
     font-size: 20px;
     color: #ccc;
     margin-top: 10px;
@@ -47,11 +54,12 @@ h1 {
     padding: 15px;
 }
 button{
+    font-family: "my";
     width: 252px;
     background-color: #000;
-    color: #00ff8c;
+    color: #ffffff;
     font-size: 34px;
-    border: 3px solid #119fff;
+    border: 3px solid #4dd0e1;
     border-radius: 50%;
     padding: 15px;
 

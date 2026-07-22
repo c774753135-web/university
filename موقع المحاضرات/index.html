@@ -34,7 +34,7 @@
 
     <hr class="header" />
         <div class="buton">
-            <button id="btn1">المحاضرات</button>
+            <button id="btn1" style="background: linear-gradient(90deg,#00b8d4, #7c4dff);">المحاضرات</button>
             <button id="btn2">التكاليف</button>
         </div>
 <div class="lecture">
@@ -238,9 +238,9 @@
     <div class="container">
         <h2 class="h_3">الشبكات</h2>
         <div class="panel3">
-            <a class="a3" href="assts/تكاليف/الشبكات/1.pdf" download="التكليف 1 نضري.pdf">التكليف 1 نضري📖</a>
+            <a class="a3" href="assts/تكاليف/الشبكات/1.pdf" download="التكليف 1 نظري.pdf">التكليف 1 نظري📖</a>
             <hr class="hr3" />
-            <a class="a3" href="assts/تكاليف/الشبكات/2.jpg" download="التكليف 2 نضري.jpg">التكليف 2 نضري📖</a>
+            <a class="a3" href="assts/تكاليف/الشبكات/2.jpg" download="التكليف 2 نظري.jpg">التكليف 2 نظري📖</a>
             <hr class="hr3" />
             <a class="a3" href="assts/تكاليف/الشبكات/3 {2.5.5}.pka" download="التكليف 1 عملي.pka">التكليف 1 عملي📖</a>
             <hr class="hr3" />
@@ -254,11 +254,11 @@
     <div class="container">
         <h2 class="h_4">تطوير الويب</h2>
         <div class="panel4">
-            <a class="a4" href="assts/تكاليف/تطوير الويب/1.zip" download="تكليف 1 نضري.zip">تكليف 1 نضري 📖</a>
+            <a class="a4" href="assts/تكاليف/تطوير الويب/1.zip" download="تكليف 1 نظري.zip">تكليف 1 نظري 📖</a>
             <hr class="hr4" />
-            <a class="a4" href="assts/تكاليف/تطوير الويب/2.zip" download="تكليف 2 نضري.zip">تكليف 2 نضري 📖</a>
+            <a class="a4" href="assts/تكاليف/تطوير الويب/2.zip" download="تكليف 2 نظري.zip">تكليف 2 نظري 📖</a>
             <hr class="hr4" />
-            <a class="a4" href="assts/تكاليف/تطوير الويب/3.pdf" download="تكليف 3 نضري.pdf">تكليف 3 نضري 📖</a>
+            <a class="a4" href="assts/تكاليف/تطوير الويب/3.pdf" download="تكليف 3 نظري.pdf">تكليف 3 نظري 📖</a>
             <hr class="hr4" />
             <a class="a4" href="assts/تكاليف/تطوير الويب/شرح اليوم.rar" download="تكليف 1 عملي.zip">تكليف 1 عملي 📖</a>
             <hr class="hr4" />
@@ -269,9 +269,9 @@
         <h2 class="h_5">البرمجة الموجهه بالكائنات</h2>
 
         <div class="panel5">
-            <a class="a5" href="assts/تكاليف/oop/1.pdf" download="تكليف 1 نضري.pdf">تكليف 1 نضري 📖</a>
+            <a class="a5" href="assts/تكاليف/oop/1.pdf" download="تكليف 1 نظري.pdf">تكليف 1 نظري 📖</a>
             <hr class="hr5" />
-            <a class="a5" href="assts/تكاليف/oop/2.pdf" download="تكليف 2 نضري.pdf">تكليف 2 نضري 📖</a>
+            <a class="a5" href="assts/تكاليف/oop/2.pdf" download="تكليف 2 نظري.pdf">تكليف 2 نظري 📖</a>
             <hr class="hr5" />
             <a class="a5" href="assts/تكاليف/oop/3.pdf" download="تكليف 1 عملي.pdf">تكليف 1 عملي 📖</a>
             <hr class="hr5" />
@@ -281,9 +281,9 @@
     <div class="container">
         <h2 class="h_6">الاحصاء والاحتمالات</h2>
         <div class="panel6">
-            <a class="a6" href="assts/تكاليف/احصاء وحتمالات/1.pdf" download="تكليف 1 نضري 📖.pdf">تكليف 1 نضري 📖</a>
+            <a class="a6" href="assts/تكاليف/احصاء وحتمالات/1.pdf" download="تكليف 1 نظري 📖.pdf">تكليف 1 نظري 📖</a>
             <hr class="hr6" />
-            <a class="a6" href="assts/تكاليف/احصاء وحتمالات/2.pdf" download="تكليف 2 نضري 📖.pdf">تكليف 2 نضري 📖</a>
+            <a class="a6" href="assts/تكاليف/احصاء وحتمالات/2.pdf" download="تكليف 2 نظري 📖.pdf">تكليف 2 نظري 📖</a>
             <hr class="hr6" />
         </div>
     </div>
@@ -303,12 +303,16 @@
         $(document).ready(function () {
             $("#btn1").click(function () {
                 $(".lecture").css({display:"block"});
+                $("#btn1").css({background:"linear-gradient(90deg,#00b8d4, #7c4dff)"});
                 $(".Hw").css({display: "none"});
+                $("#btn2").css({background:"#000"});
             });
 
             $("#btn2").click(function () {
                 $(".Hw").css({display:"block"});
+                $("#btn2").css({background:"linear-gradient(90deg,#00b8d4, #7c4dff)"});
                 $(".lecture").css({display: "none"});
+                $("#btn1").css({background:"#000"});
             });
         });
         $(".h_1").click(function () {
